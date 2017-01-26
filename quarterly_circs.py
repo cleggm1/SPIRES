@@ -12,7 +12,6 @@ With open('usage_stats.in', 'r') as input:
         """Oct-Dec"""
 #        matchObj = re.search(r'DATE-BORROWED = 1[012]/\d{2}/17;', line)
         if matchObj:
-#            print line
             uses.append(line)
 
 print "%i circs in quarter" % len(uses)
