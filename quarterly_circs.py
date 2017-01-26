@@ -15,6 +15,6 @@ With open('usage_stats.in', 'r') as input:
             uses.append(line)
 
 print "%i circs in quarter" % len(uses)
-with open('usage_stats.in', 'r') as output:
+with open('usage_stats.out', 'w') as output:
     output.writelines(uses)
 
