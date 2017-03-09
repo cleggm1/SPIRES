@@ -1,3 +1,7 @@
+"""
+The input file should contain date-borrowed and xdate-borrowed
+Remove pound sign from the quarter you're running stats for
+"""
 import re
 
 uses = []
