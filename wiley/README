@@ -1,0 +1,3 @@
+First use check_wiley_xml.py to parse Wiley XML file and create a dictionary that includes full author strings and table of contents.
+
+Then use wiley_input.py to parse tab deliminated file and convert to SPIRES format, adding info from the xml parsing script where available.
